@@ -1,6 +1,7 @@
 import cmd
 """This is a custom console for the AirBnB project"""
 
+
 class HBNBCommand(cmd.Cmd):
     """This is a class implementing a shell environment for a specific use"""
 
@@ -14,6 +15,7 @@ class HBNBCommand(cmd.Cmd):
     def do_quit(self, args):
         """Quit command to exit the program"""
         return True
+
 
 """To run the file as the main program"""
 if __name__ == '__main__':
