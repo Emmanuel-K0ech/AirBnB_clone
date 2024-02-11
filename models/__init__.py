@@ -1,5 +1,7 @@
 #!/usr/bin/python3
-"""__init__ magic method for models directory"""
+"""
+This is a unique File storage instance for the AirBnB Clone
+"""
 from models.engine.file_storage import FileStorage
 
 
