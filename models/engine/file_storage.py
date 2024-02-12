@@ -41,8 +41,16 @@ class FileStorage:
         If file does not exist no exception should be raised
         """
         from models.base_model import BaseModel
+        from models.user import User
+        from models.city import City
+        from models.place import Place
 
-        class_map = {'BaseModel': BaseModel}
+        class_map = {
+            'BaseModel': BaseModel,
+            'User': User,
+            'City': City,
+            'Place': Place
+            }
 
         try:
             with open(self.__file_path, "r", encoding="UTF-8") as json_file:
