@@ -9,6 +9,10 @@ class HBNBCommand(cmd.Cmd):
     intro = "Welcome to my cmd, type 'help' for more commands. \n"
     prompt = "(hbnb) "
 
+    def emptyline(self):
+        """called when empty line is entered"""
+        pass
+
     def do_quit(self, args):
         """Quit command to exit the program"""
         return True
