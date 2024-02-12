@@ -6,7 +6,6 @@ import cmd
 class HBNBCommand(cmd.Cmd):
     """This is a class implementing a shell environment for a specific use"""
 
-    intro = "Welcome to my cmd, type 'help' for more commands. \n"
     prompt = "(hbnb) "
 
     def emptyline(self):
