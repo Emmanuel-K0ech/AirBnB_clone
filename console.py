@@ -1,6 +1,6 @@
 #!/usr/bin/python3
-import cmd
 """This is a custom console for the AirBnB project"""
+import cmd
 
 
 class HBNBCommand(cmd.Cmd):
