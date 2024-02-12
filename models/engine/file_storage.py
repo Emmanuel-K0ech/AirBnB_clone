@@ -45,7 +45,7 @@ class FileStorage:
         class_map = {'BaseModel': BaseModel}
 
         try:
-            with open(self__file_path, "r", encoding="UTF-8") as json_file:
+            with open(self.__file_path, "r", encoding="UTF-8") as json_file:
                 obj_dict = json.load(json_file)
 
                 for key, value in obj_dict.items():
