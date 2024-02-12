@@ -9,12 +9,12 @@ class HBNBCommand(cmd.Cmd):
     intro = "Welcome to my cmd, type 'help' for more commands. \n"
     prompt = "(hbnb) "
 
-    def do_EOF(self, args):
-        """End Of File exit"""
-        return True
-
     def do_quit(self, args):
         """Quit command to exit the program"""
+        return True
+
+    def do_EOF(self, args):
+        """End Of File - exit program"""
         return True
 
 
