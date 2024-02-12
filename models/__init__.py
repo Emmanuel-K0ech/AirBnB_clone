@@ -1,7 +1,8 @@
 #!/usr/bin/python3
-"""__init__ magic method for models directory"""
+"""
+Creating a unique File storage instance for Hbnb
+"""
 from models.engine.file_storage import FileStorage
-
 
 storage = FileStorage()
 storage.reload()
